@@ -1,0 +1,12 @@
+# Ignore all
+*
+
+# Personal config (never committed)
+config.json
+
+# Exclusions
+!datastore_monitor.py
+!requirements.txt
+!config.example.json
+!.gitignore
+!README.md

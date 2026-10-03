@@ -1,0 +1,22 @@
+{
+    "Endpoint": "https://apis.roblox.com/analytics-query-gateway/v1/metrics/resource/RESOURCE_TYPE_UNIVERSE/id/{UniverseId}",
+    "Metric": "DataStoreRequestsByStatus",
+    "Granularity": "OneMinute",
+    "Breakdown": [
+        {
+            "dimensions": [
+                "DatastoreStatus"
+            ]
+        }
+    ],
+    "HistoryHours": 1,
+    "PollSeconds": 30,
+    "CriticalThreshold": 0.1,
+    "MaxPoints": 60,
+    "Games": [
+        {
+            "Name": "Example Game",
+            "UniverseId": 1234567890
+        }
+    ]
+}

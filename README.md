@@ -32,7 +32,7 @@ Authentication uses your own `.ROBLOSECURITY` cookie, so the dashboard only ever
 1. Put your cookie in `.env` as a single line:
 
    ```
-   Cookie=_ROBLOSECURITY=<your value>
+   Cookie="YOURCOOKIE"
    ```
 
 2. Copy the example config and set the `Name` and `UniverseId` of the game to track:

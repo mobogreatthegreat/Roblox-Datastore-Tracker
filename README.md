@@ -13,7 +13,7 @@ Authentication uses your own `.ROBLOSECURITY` cookie, so the dashboard only ever
 - Per-game sections with status counts, earliest/latest timestamps, and multiple games in one dashboard.
 - Graceful degradation: an unreachable or unauthorized query renders an error line for that game only, leaving the rest of the dashboard live.
 - Raw payloads are written to `output.json` and appended to `output_history.json` (capped at the last 500 fetches) for later inspection.
-- `--once` renders a single snapshot and exits, for use in CI or a cron job.
+- `--once` renders a single snapshot and exits.
 
 ## Requirements
 
